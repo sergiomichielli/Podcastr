@@ -18,7 +18,7 @@ export function Header() {
     } = DarkUsePlayer();
 
     return (
-        <header className={isDark ? styles.darkHeaderContainer : styles.headerContainer}>
+        <header className={isDark ? styles.darkHeaderContainer + ' ' + styles.headerContainer : styles.headerContainer}>
             <img src="/logo.svg" alt="Podcastr"/>
 
             <p>O melhor para você ouvir, sempre.</p>
