@@ -20,8 +20,8 @@
   --purple-500: #8257E5;
   --purple-800: #6F48C9;
 
-  --dark-background: #1b041d;
-  --dark-box: #555555;
+  --dark-background: #141414;
+  --dark-box: #353535;
 }
 
 @media (max-width: 1366px) {
@@ -70,7 +70,7 @@ button {
 }
 
 ::-webkit-scrollbar {
-  width: 18px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -80,9 +80,9 @@ button {
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   border: solid 2px var(--white);
-  background: var(--gray-200);
+  background: var(--purple-800);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #00ff4c;
+  background: var(--purple-400);;
 }
