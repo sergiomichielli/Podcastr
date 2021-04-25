@@ -1,20 +1,29 @@
+import { CgDarkMode } from 'react-icons/cg';
+import { DarkUsePlayer } from '../../contexts/PlayerContextDarkTheme';
+
 import format from 'date-fns/format';
 import ptBR from 'date-fns/locale/pt-BR';
 
 import styles from './styles.module.scss';
+import React from 'react';
 
 export function Header() {
-  const currentDate = format(new Date(), 'EEEEEE, d MMMM',{
-    locale: ptBR,
-});
+    const currentDate = format(new Date(), 'EEEEEE, d MMMM', {
+        locale: ptBR,
+    });
 
-  return (
-    <header className={styles.headerContainer}>
-    <img src="/logo.svg" alt="Podcastr" />
+    const {
+        darkTheme,
+        isDark,
+    } = DarkUsePlayer();
 
-    <p>O melhor para você ouvir, Sempre</p>
+    return (
+        <header className={isDark ? styles.darkHeaderContainer : styles.headerContainer}>
+            <img src="/logo.svg" alt="Podcastr"/>
 
-    <span>{currentDate}</span>
-    </header>
-  )
+            <p>O melhor para você ouvir, sempre.</p>
+
+            <span>{currentDate}<CgDarkMode onClick={darkTheme} className={styles.darkModeButton} /></span>
+        </header>
+    );
 }
