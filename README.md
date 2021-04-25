@@ -26,3 +26,8 @@ $ yarn server
 # Access localhost
 http://localhost:3000
 ```
+
+
+---
+
+Desenvolvido por Sérgio de Michielli Francisco
