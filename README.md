@@ -1,6 +1,3 @@
-<h3 align="center">
-    https://podcastr-nlw5-react.vercel.app
-</h3>
 
 ## 🔖&nbsp; Sobre
 
@@ -33,7 +30,5 @@
     # Iniciar o projeto (Front-end)
     $ yarn dev
 ```
-
----
 
 Desenvolvido por Sérgio de Michielli Francisco
