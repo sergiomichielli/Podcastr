@@ -1,34 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛠 Technologies
 
-## Getting Started
+### - JavaScript
 
-First, run the development server:
+### - ReactJS
 
-```bash
-npm run dev
-# or
-yarn dev
+### - TypeScript
+
+### - NextJS
+
+### - NodeJS
+
+### - HTML
+
+### - CSS (with Sass)
+
+### - Yarn
+
+### - Visual Studio Code
+
+# 🖥️ Required! Install git, node and yarn
+
+# Clone Repository
+
+$ git clone <https://github.com/sergiomichielli/Podcastr.git>
+
+# Install Dependencies
+
+$ yarn
+
+# Terminal 1 - Run Application
+
+$ yarn dev
+
+# Terminal 2 - Run Server
+
+$ yarn server
+
+# Access localhost
+<http://localhost:3000>
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 🏠 Home Page (Página Inicial)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+![Home](https://user-images.githubusercontent.com/34319735/115996353-462dc380-a5b5-11eb-9245-3f491dd3b897.png)
+![Home-Dark](https://user-images.githubusercontent.com/34319735/115996355-475ef080-a5b5-11eb-89b3-52463a9d701c.png)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# 🎤 Playing Podcast (Reproduzindo Podcast)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![Play](https://user-images.githubusercontent.com/34319735/115996356-47f78700-a5b5-11eb-97b2-a96ef970a4cd.png)
+![Play-Dark](https://user-images.githubusercontent.com/34319735/115996357-48901d80-a5b5-11eb-984c-f3245605dc5f.png)
 
-## Learn More
+# 📖 Podcast Description (Descrição do Podcast)
 
-To learn more about Next.js, take a look at the following resources:
+![Descrip](https://user-images.githubusercontent.com/34319735/115996359-48901d80-a5b5-11eb-82d1-d8eebd3aca35.png)
+![Descrip-Dark](https://user-images.githubusercontent.com/34319735/115996360-4928b400-a5b5-11eb-8dd1-33c77f45415f.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# ℹ️ Options (Opções)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Option-List](https://user-images.githubusercontent.com/34319735/115937391-44a5b380-a46e-11eb-8bd1-f9e58a88ea6c.png)
 
-## Deploy on Vercel
+### 1 - Play/Pause (Iniciar/Parar)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 2 - Previous (Anterior)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 3 - Next (Próximo)
+
+### 4 - Next Random (Próximo Aleatório)
+
+### 5 - Starts Next When It Ends (Começar Próximo Quando Termina)
