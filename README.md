@@ -1,4 +1,4 @@
-# 🛠 Technologies (Tecnologias)
+# 🛠 Technologies
 ### - JavaScript
 ### - ReactJS
 ### - TypeScript
@@ -9,24 +9,21 @@
 ### - Yarn or Npm
 ### - Visual Studio Code
 
-# 🖥️ Required! Install git, node and yarn (or npm) (Obrigatório! Instalar git, node and yarn (ou npm))
+# 🖥️ Required! Install git, node and yarn (or npm).
 ```
 # Clone Repository (Clonar Repositório)
-$ git clone https://github.com/GuilhermeProenca/Next-Level-Week-5.git
+$ git clone https://github.com/sergiomichielli/Podcastr.git
 
-# Go to server folder (Ir Para Pasta do Servidor)
-$ cd Next-Level-Week-5
-
-# Install Dependencies (Instalar Dependências)
+# Install Dependencies
 $ yarn
 
-# Terminal 1 - Run Aplication (Rodar Aplicação)
+# Terminal 1 - Run Aplication
 $ yarn dev
 
-# Terminal 2 - Run Server (Rodar Servidor)
+# Terminal 2 - Run Server
 $ yarn server
 
-# Access localhost (Acessar localhost)
+# Access localhost
 http://localhost:3000
 ```
 # 🏠 Home Page (Página Inicial)
@@ -40,8 +37,4 @@ http://localhost:3000
 ![Descrip-Dark](https://user-images.githubusercontent.com/34319735/115996360-4928b400-a5b5-11eb-8dd1-33c77f45415f.png)
 # ℹ️ Options (Opções)
 ![Option-List](https://user-images.githubusercontent.com/34319735/115937391-44a5b380-a46e-11eb-8bd1-f9e58a88ea6c.png)
-### 1 - Play/Pause (Iniciar/Parar)
-### 2 - Previous (Anterior)
-### 3 - Next (Próximo)
-### 4 - Next Random (Próximo Aleatório)
-### 5 - Starts Next When It Ends (Começar Próximo Quando Termina)
+
