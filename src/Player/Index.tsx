@@ -139,7 +139,7 @@ export function Player() {
           onClick={togglePlay}
           >
             { isPlaying
-            ? <img src="/play.svg" alt="Tocar" />
+            ? <img src="/pause.svg" alt="Tocar" />
             : <img src="/play.svg" alt="Tocar" /> }
           </button>
           <button type="button" onClick={playNext} disabled={!episode || !hasNext}>
